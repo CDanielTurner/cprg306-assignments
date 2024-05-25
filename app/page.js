@@ -10,6 +10,7 @@ export default function Home() {
 			</p>
 			<p>
 				<Link href="../week-2">Click me!</Link>
+				<Link href="../week-3">Click me!</Link>
 			</p>
 		</main>
 	);
