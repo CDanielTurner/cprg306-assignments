@@ -1,13 +1,15 @@
+import ItemList from "./item-list";
 export default function Item({ name, quantity, category }) {
 	return (
-		<li className="flex items-center justify-between p-4 mb-2 bg-white border rounded shadow">
-			<div>
-				<h3 className="text-lg font-semibold text-black">{name}</h3>
-				<p className="text-sm text-gray-500">{category}</p>
+		<ul>
+			<div className="bg-blue-900 m-3 w-60 h-30 rounded text-center">
+				<li>
+					<h1 className="font-bold text-blue-300">{name}</h1>
+					<p>
+						buy {quantity}, from {category}
+					</p>
+				</li>
 			</div>
-			<span className="text-blue-500 font-bold">{quantity}</span>
-		</li>
+		</ul>
 	);
 }
-
-// export default Item;
