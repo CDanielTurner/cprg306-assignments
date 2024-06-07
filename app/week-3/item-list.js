@@ -73,8 +73,8 @@ export default function ItemList() {
 		category: "household",
 	};
 	return (
-		<main className="bg-slate-900">
-			<h1 className="text-blue-300 text-3xl font-bold">Shopping List</h1>
+		<main className="bg-slate-600">
+			<h1 className="text-black text-3xl font-bold ml-7">Shopping List</h1>
 			<Item
 				name={item1.name}
 				quantity={item1.quantity}

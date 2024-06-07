@@ -2,15 +2,18 @@ import Link from "next/link";
 
 export default function Home() {
 	return (
-		<main className="h-screen">
-			<h1>CPRG 306: Web Development 2 - Assignments</h1>
-			<p>
-				Below is a link to show a shopping list, a name, and a link to a Github
-				repository.
+		<main className="h-screen bg-slate-500 flex flex-col justify-start items-center">
+			<h1 className="text-4xl font-bold text-center mt-3">
+				CPRG 306: Web Development 2 - Assignments
+			</h1>
+			<p className="hover:underline hover:font-bold text-2xl">
+				<Link href="../week-2">Week 2 Assignments</Link>
 			</p>
-			<p>
-				<Link href="../week-2">Click me!</Link>
-				<Link href="../week-3">Click me!</Link>
+			<p className="hover:underline hover:font-bold text-2xl">
+				<Link href="../week-3">Week 3 Assignments</Link>
+			</p>
+			<p className="hover:underline hover:font-bold text-2xl">
+				<Link href="../week-4">Week 4 Assignments</Link>
 			</p>
 		</main>
 	);
