@@ -18,6 +18,12 @@ export default function Home() {
 			<p className="hover:underline hover:font-bold text-2xl">
 				<Link href="../week-5">Week 5 Assignments</Link>
 			</p>
+			<p className="hover:underline hover:font-bold text-2xl">
+				<Link href="../week-6">Week 6 Assignments</Link>
+			</p>
+			<p className="hover:underline hover:font-bold text-2xl">
+				<Link href="../week-7">Week 7 Assignments</Link>
+			</p>
 		</main>
 	);
 }
